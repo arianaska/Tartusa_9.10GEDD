@@ -16,7 +16,7 @@ else:
 
     for indekss in range(len(skaitli)):
         if skaitli[indekss] == meklējamais:
-            atrastie_indeksi.append(indekss)
+            atrastie_indeksi.append(indekss + 1)
 
     if atrastie_indeksi:
         print(f"Pirmais indekss: {atrastie_indeksi[0]}")
